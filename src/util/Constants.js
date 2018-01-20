@@ -65,8 +65,8 @@ exports.DefaultOptions = {
       $os: 'Windows',
       $browser: 'Chrome',
       $device: '',
-      referrer: "",
-      referring_domain: ""
+      referrer: '',
+      referring_domain: '' // This makes Discord think you're using Chrome, almost impossible for them to know it's you.
     },
     version: 6,
   },
@@ -87,8 +87,7 @@ exports.DefaultOptions = {
   },
 };
 
-exports.UserAgent = browser ? null :
-  `DiscordBot (${Package.homepage.split('#')[0]}, ${Package.version}) Node.js/${process.version}`;
+exports.UserAgent = `Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36`; // Same here, they have no idea
 
 exports.WSCodes = {
   1000: 'Connection gracefully closed',
