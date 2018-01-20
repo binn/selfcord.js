@@ -87,7 +87,7 @@ exports.DefaultOptions = {
   },
 };
 
-exports.UserAgent = `Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36`; // Same here, they have no idea
+exports.UserAgent = 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36'; // Same here, they have no idea
 
 exports.WSCodes = {
   1000: 'Connection gracefully closed',
