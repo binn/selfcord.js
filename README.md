@@ -1,23 +1,26 @@
 <div align="center">
-  <br />
   <p>
-    <a href="https://discord.js.org"><img src="https://discord.js.org/static/logo.svg" width="546" alt="discord.js" /></a>
-  </p>
-  <br />
-  <p>
-    <a href="https://discord.gg/bRCvFy9"><img src="https://discordapp.com/api/guilds/222078108977594368/embed.png" alt="Discord server" /></a>
-    <a href="https://www.npmjs.com/package/discord.js"><img src="https://img.shields.io/npm/v/discord.js.svg?maxAge=3600" alt="NPM version" /></a>
-    <a href="https://www.npmjs.com/package/discord.js"><img src="https://img.shields.io/npm/dt/discord.js.svg?maxAge=3600" alt="NPM downloads" /></a>
-    <a href="https://travis-ci.org/discordjs/discord.js"><img src="https://travis-ci.org/discordjs/discord.js.svg" alt="Build status" /></a>
-    <a href="https://david-dm.org/discordjs/discord.js"><img src="https://img.shields.io/david/discordjs/discord.js.svg?maxAge=3600" alt="Dependencies" /></a>
-    <a href="https://www.patreon.com/discordjs"><img src="https://img.shields.io/badge/donate-patreon-F96854.svg" alt="Patreon" /></a>
+    <a href="https://www.npmjs.com/package/selfcord.js"><img src="https://img.shields.io/npm/v/selfcord.js.svg?maxAge=3600" alt="NPM version" /></a>
   </p>
   <p>
-    <a href="https://nodei.co/npm/discord.js/"><img src="https://nodei.co/npm/discord.js.png?downloads=true&stars=true" alt="npm installnfo" /></a>
+    <a href="https://nodei.co/npm/selfcord.js/"><img src="https://nodei.co/npm/selfcord.js.png?downloads=true&stars=true" alt="npm installnfo" /></a>
   </p>
 </div>
 
-## About
+# About 
+This is a selfbot compatible version of discord.js. It changes the gateway IDENTIFY payload to make the Discord Gateway think that it's the official browser that's connecting.
+There's still a lot of work to be done to prevent Discord's gateway from thinking that you are a bot.
+
+Currently it is reccomended that you do **not set your game,** also known as the playing tag, since it'll inform the Gateway that you are infact, using the API instead of a browser.
+
+This fork of discord.js provides no gurantees, but you are free to use it.
+
+This fork of discord.js is avaliable on GitHub and NPM. Download it from NPM [here](https://nodei.co/npm/selfcord.js/) or click the images/links above.
+You can also use `npm install selfcord.js` in your node project.
+
+## -- discord.js README.md --
+
+### About
 discord.js is a powerful [node.js](https://nodejs.org) module that allows you to interact with the
 [Discord API](https://discordapp.com/developers/docs/intro) very easily.
 
